@@ -1,0 +1,33 @@
+name: Contribution snake
+
+# Draws the contribution graph as a snake in the profile's colours,
+# once a day and on demand, and publishes the SVGs to the `output` branch.
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?color_snake=#b5361b&color_dots=#e8e1d5,#f0c4b2,#e08d72,#c95a3c,#9e2c14&color_dot_border=#00000000
+            dist/snake-dark.svg?color_snake=#ff7a52&color_dots=#221d1a,#5a2a1c,#8f3a22,#cf5530,#ff7a52&color_dot_border=#00000000
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          author: SUDARSUN-24 <190239857+SUDARSUN-24@users.noreply.github.com>
+          committer: SUDARSUN-24 <190239857+SUDARSUN-24@users.noreply.github.com>
+          commit_message: Update contribution snake
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
