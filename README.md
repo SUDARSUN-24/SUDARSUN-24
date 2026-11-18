@@ -85,12 +85,20 @@ Also: [Sample Cafe](https://sample-cafe-demo.netlify.app/), a Thai/English cafe 
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-191512?style=flat-square&logo=javascript&logoColor=F7DF1E) ![TypeScript](https://img.shields.io/badge/TypeScript-191512?style=flat-square&logo=typescript&logoColor=3178C6) ![HTML](https://img.shields.io/badge/HTML-191512?style=flat-square&logo=html5&logoColor=E34F26) ![CSS](https://img.shields.io/badge/CSS-191512?style=flat-square&logo=css&logoColor=1572B6) ![React](https://img.shields.io/badge/React-191512?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-191512?style=flat-square&logo=nextdotjs&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-191512?style=flat-square&logo=threedotjs&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-191512?style=flat-square&logo=nodedotjs&logoColor=5FA04E) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-191512?style=flat-square&logo=postgresql&logoColor=4169E1) ![Python](https://img.shields.io/badge/Python-191512?style=flat-square&logo=python&logoColor=3776AB) ![Godot](https://img.shields.io/badge/Godot-191512?style=flat-square&logo=godotengine&logoColor=478CBF) ![Blender](https://img.shields.io/badge/Blender-191512?style=flat-square&logo=blender&logoColor=E87D0D) ![Git](https://img.shields.io/badge/Git-191512?style=flat-square&logo=git&logoColor=F05032)
 
-## Contributions
+## GitHub activity
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SUDARSUN-24/SUDARSUN-24/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/SUDARSUN-24/SUDARSUN-24/output/snake-light.svg" alt="A snake eating my GitHub contribution graph" width="100%">
-</picture>
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SUDARSUN-24/SUDARSUN-24/output/stats-dark.svg"><img src="https://raw.githubusercontent.com/SUDARSUN-24/SUDARSUN-24/output/stats-light.svg" alt="GitHub stats: contributions, commits, pull requests, public repos and streaks" width="49%"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SUDARSUN-24/SUDARSUN-24/output/languages-dark.svg"><img src="https://raw.githubusercontent.com/SUDARSUN-24/SUDARSUN-24/output/languages-light.svg" alt="Top languages across my public repos" width="49%"></picture>
+</p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SUDARSUN-24/SUDARSUN-24/output/activity-dark.svg"><img src="https://raw.githubusercontent.com/SUDARSUN-24/SUDARSUN-24/output/activity-light.svg" alt="Line graph of my weekly contributions over the last year" width="100%"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SUDARSUN-24/SUDARSUN-24/output/lighthouse-dark.svg"><img src="https://raw.githubusercontent.com/SUDARSUN-24/SUDARSUN-24/output/lighthouse-light.svg" alt="Lighthouse scores for my portfolio, sudasun.vercel.app" width="100%"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SUDARSUN-24/SUDARSUN-24/output/snake-dark.svg"><img src="https://raw.githubusercontent.com/SUDARSUN-24/SUDARSUN-24/output/snake-light.svg" alt="A snake eating my GitHub contribution graph" width="100%"></picture>
+
+<sub>These cards are built by my own script in <a href=".github/cards/build.mjs">.github/cards</a> and refreshed daily by GitHub Actions.</sub>
 
 ## Now
 

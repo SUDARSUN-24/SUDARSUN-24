@@ -1,7 +1,8 @@
-name: Contribution snake
+name: Profile cards
 
-# Draws the contribution graph as a snake in rainbow colours,
-# once a day and on demand, and publishes the SVGs to the `output` branch.
+# Once a day (and on demand) rebuilds everything animated on the profile:
+# the contribution snake, the stats / languages / activity cards and the
+# Lighthouse audit of the portfolio. Results go to the `output` branch.
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -11,10 +12,16 @@ permissions:
   contents: write
 
 jobs:
-  snake:
+  cards:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
       - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -22,12 +29,26 @@ jobs:
             dist/snake-light.svg?color_snake=#7c3aed&color_dots=#ebedf0,#38bdf8,#34d399,#fbbf24,#f472b6&color_dot_border=#00000000
             dist/snake-dark.svg?color_snake=#c4b5fd&color_dots=#161b22,#0ea5e9,#10b981,#f59e0b,#ec4899&color_dot_border=#00000000
 
+      - name: Lighthouse audit of the portfolio
+        continue-on-error: true
+        run: >
+          npx -y lighthouse@13.6.0 https://sudasun.vercel.app
+          --preset=desktop
+          --only-categories=performance,accessibility,best-practices,seo
+          --output=json --output-path=lh.json --quiet
+          --chrome-flags="--headless=new --no-sandbox"
+
+      - name: Stats, languages, activity and Lighthouse cards
+        run: node .github/cards/build.mjs dist lh.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
           author: SUDARSUN-24 <190239857+SUDARSUN-24@users.noreply.github.com>
           committer: SUDARSUN-24 <190239857+SUDARSUN-24@users.noreply.github.com>
-          commit_message: Update contribution snake
+          commit_message: Update profile cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
