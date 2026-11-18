@@ -19,14 +19,14 @@ I'm a B.Sc. Information Technology student at Siam University in Bangkok, gradua
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://resonancesun.netlify.app/"><img src="assets/resonance-demo.webp" alt="Resonance: typing a line, the voice ring pulsing as it speaks, live captions, then switching voice" width="100%"></a>
+      <a href="https://resonancesun.netlify.app/"><img src="assets/resonance.webp" alt="Resonance voice studio" width="100%"></a>
       <h3>Resonance</h3>
       A voice studio in the browser: type text, pick a voice and hear it read aloud with live captions.<br>
       <sub><code>JavaScript</code> <code>Web Speech API</code></sub><br>
       <a href="https://resonancesun.netlify.app/">Live</a> · <a href="https://github.com/SUDARSUN-24/Resonance">Code</a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://siam-library.vercel.app/"><img src="assets/library-demo.webp" alt="Siam Library: scrolling the shelves and categories, then searching for design" width="100%"></a>
+      <a href="https://siam-library.vercel.app/"><img src="assets/library-home.webp" alt="Siam Library book preview" width="100%"></a>
       <h3>Siam Library</h3>
       Book previews for my university library: read a sample, then see if the book is on the shelf and where.<br>
       <sub><code>Next.js</code> <code>TypeScript</code> <code>Prisma</code> <code>PostgreSQL</code></sub><br>
@@ -35,14 +35,14 @@ I'm a B.Sc. Information Technology student at Siam University in Bangkok, gradua
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://velonixsun.vercel.app/"><img src="assets/velonix-demo.webp" alt="Velonix: switching between 3D vehicles in the showroom" width="100%"></a>
+      <a href="https://velonixsun.vercel.app/"><img src="assets/velonix.webp" alt="Velonix 3D vehicle showroom" width="100%"></a>
       <h3>Velonix Customs</h3>
       A 3D vehicle showroom: rotate five vehicles, customise one in the configurator and rev its engine.<br>
       <sub><code>JavaScript</code> <code>Three.js</code></sub><br>
       <a href="https://velonixsun.vercel.app/">Live</a> · <a href="https://github.com/SUDARSUN-24/Velonix">Code</a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://sample-hotel-demo.netlify.app/"><img src="assets/hotel-demo.webp" alt="Sample Hotel: scrolling from the hero to rooms and the booking form" width="100%"></a>
+      <a href="https://sample-hotel-demo.netlify.app/"><img src="assets/sample-hotel.webp" alt="Sample Hotel website" width="100%"></a>
       <h3>Sample Hotel</h3>
       A Thai/English hotel site with a room booking backend and a voice concierge.<br>
       <sub><code>JavaScript</code> <code>Netlify Functions</code></sub><br>
