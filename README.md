@@ -35,18 +35,18 @@ I'm a B.Sc. Information Technology student at Siam University in Bangkok, gradua
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://canteenflow-three.vercel.app/"><img src="assets/canteenflow.webp" alt="CanteenFlow campus food pre-order" width="100%"></a>
+      <h3>CanteenFlow</h3>
+      Campus food pre-order for my university: order from a stall, pick a pickup slot, follow it live. Stalls accept or reject on their own page.<br>
+      <sub><code>Node.js</code> <code>Express</code> <code>SQLite / Turso</code> <code>61 tests</code></sub><br>
+      <a href="https://canteenflow-three.vercel.app/">Live</a> · <a href="https://github.com/SUDARSUN-24/CanteenFLow">Code</a>
+    </td>
+    <td width="50%" valign="top">
       <a href="https://velonixsun.vercel.app/"><img src="assets/velonix.webp" alt="Velonix 3D vehicle showroom" width="100%"></a>
       <h3>Velonix Customs</h3>
       A 3D vehicle showroom: rotate five vehicles, customise one in the configurator and rev its engine.<br>
       <sub><code>JavaScript</code> <code>Three.js</code></sub><br>
       <a href="https://velonixsun.vercel.app/">Live</a> · <a href="https://github.com/SUDARSUN-24/Velonix">Code</a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://sample-hotel-demo.netlify.app/"><img src="assets/sample-hotel.webp" alt="Sample Hotel website" width="100%"></a>
-      <h3>Sample Hotel</h3>
-      A Thai/English hotel site with a room booking backend and a voice concierge.<br>
-      <sub><code>JavaScript</code> <code>Netlify Functions</code></sub><br>
-      <a href="https://sample-hotel-demo.netlify.app/">Live</a> · <a href="https://github.com/SUDARSUN-24/sample-hotel">Code</a>
     </td>
   </tr>
   <tr>
@@ -65,9 +65,23 @@ I'm a B.Sc. Information Technology student at Siam University in Bangkok, gradua
       <a href="https://github.com/SUDARSUN-24/khun-chuay">Code</a>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://sample-hotel-demo.netlify.app/"><img src="assets/sample-hotel.webp" alt="Sample Hotel website" width="100%"></a>
+      <h3>Sample Hotel</h3>
+      A Thai/English hotel site with a room booking backend and a voice concierge.<br>
+      <sub><code>JavaScript</code> <code>Netlify Functions</code></sub><br>
+      <a href="https://sample-hotel-demo.netlify.app/">Live</a> · <a href="https://github.com/SUDARSUN-24/sample-hotel">Code</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://sample-cafe-demo.netlify.app/"><img src="assets/sample-cafe.webp" alt="Sample Cafe website" width="100%"></a>
+      <h3>Sample Cafe</h3>
+      A Thai/English cafe site template with table booking and a staff dashboard.<br>
+      <sub><code>JavaScript</code></sub><br>
+      <a href="https://sample-cafe-demo.netlify.app/">Live</a> · <a href="https://github.com/SUDARSUN-24/sample-cafe">Code</a>
+    </td>
+  </tr>
 </table>
-
-Also: [Sample Cafe](https://sample-cafe-demo.netlify.app/), a Thai/English cafe site template with table booking and a staff dashboard ([code](https://github.com/SUDARSUN-24/sample-cafe)).
 
 ## Games in Godot 4
 
@@ -83,7 +97,7 @@ Also: [Sample Cafe](https://sample-cafe-demo.netlify.app/), a Thai/English cafe 
 
 ## Tools
 
-![JavaScript](https://img.shields.io/badge/JavaScript-191512?style=flat-square&logo=javascript&logoColor=F7DF1E) ![TypeScript](https://img.shields.io/badge/TypeScript-191512?style=flat-square&logo=typescript&logoColor=3178C6) ![HTML](https://img.shields.io/badge/HTML-191512?style=flat-square&logo=html5&logoColor=E34F26) ![CSS](https://img.shields.io/badge/CSS-191512?style=flat-square&logo=css&logoColor=1572B6) ![React](https://img.shields.io/badge/React-191512?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-191512?style=flat-square&logo=nextdotjs&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-191512?style=flat-square&logo=threedotjs&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-191512?style=flat-square&logo=nodedotjs&logoColor=5FA04E) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-191512?style=flat-square&logo=postgresql&logoColor=4169E1) ![Python](https://img.shields.io/badge/Python-191512?style=flat-square&logo=python&logoColor=3776AB) ![Godot](https://img.shields.io/badge/Godot-191512?style=flat-square&logo=godotengine&logoColor=478CBF) ![Blender](https://img.shields.io/badge/Blender-191512?style=flat-square&logo=blender&logoColor=E87D0D) ![Git](https://img.shields.io/badge/Git-191512?style=flat-square&logo=git&logoColor=F05032)
+![JavaScript](https://img.shields.io/badge/JavaScript-191512?style=flat-square&logo=javascript&logoColor=F7DF1E) ![TypeScript](https://img.shields.io/badge/TypeScript-191512?style=flat-square&logo=typescript&logoColor=3178C6) ![HTML](https://img.shields.io/badge/HTML-191512?style=flat-square&logo=html5&logoColor=E34F26) ![CSS](https://img.shields.io/badge/CSS-191512?style=flat-square&logo=css&logoColor=1572B6) ![React](https://img.shields.io/badge/React-191512?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-191512?style=flat-square&logo=nextdotjs&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-191512?style=flat-square&logo=threedotjs&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-191512?style=flat-square&logo=nodedotjs&logoColor=5FA04E) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-191512?style=flat-square&logo=postgresql&logoColor=4169E1) ![Express](https://img.shields.io/badge/Express-191512?style=flat-square&logo=express&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-191512?style=flat-square&logo=sqlite&logoColor=4DA6E8) ![Python](https://img.shields.io/badge/Python-191512?style=flat-square&logo=python&logoColor=3776AB) ![Godot](https://img.shields.io/badge/Godot-191512?style=flat-square&logo=godotengine&logoColor=478CBF) ![Blender](https://img.shields.io/badge/Blender-191512?style=flat-square&logo=blender&logoColor=E87D0D) ![Git](https://img.shields.io/badge/Git-191512?style=flat-square&logo=git&logoColor=F05032)
 
 ## GitHub activity
 
